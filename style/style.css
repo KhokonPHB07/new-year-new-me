@@ -122,8 +122,17 @@
 
        /* Styles for section My plan */
 
+       .myplans{
+        font-size: 35px;
+       }
+
        .section-my-plan{
         display: flex;
+        padding-top: 50px;
+        padding-left:50px;
+        padding-right: 50px;
+        justify-content: space-evenly;
+
         
 
        }
