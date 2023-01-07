@@ -137,11 +137,17 @@
 
         .hcenter{
             text-align: center;
+            margin-top: 10px;
+            font-size: 30px;
         }
 
         .pcenter{
             text-align: center;
-            font-size: 20px;
+            font-size: 25px;
+            color: gray;
+            margin-top: 0px;
+            font-weight: bold;
+            padding-top: 0%;
         }
 
         .icenter{
