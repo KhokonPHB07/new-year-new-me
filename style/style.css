@@ -118,6 +118,20 @@
             text-align: left;
         }
 
+
+        .btn-watch{
+            position: absolute;
+            top: 2350px;
+            font-size: 26px;
+            color: orangered;
+            padding:15px;
+            right:100px;
+            background-color:white;
+            border: none;
+            border-radius: 6px;
+            margin-right: 1020px;
+            
+           }
         
         
        
