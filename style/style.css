@@ -135,7 +135,8 @@
 
            /* styles for footer */
 
-           .foot-style{
+           /* .foot-style{
+            position: fixed;
             background-color: black;
             left: 0;
             bottom: 0;
@@ -145,24 +146,27 @@
             margin-left: 0;
             margin-right: 0;
 
-           }
+           } */
 
            .htext-color{
-            color: white;
+            color:black ;
+            font-size: 50px;
            }
 
            .ptext-color{
-            color: white;
+            color: black;
            }
 
            .email-color{
-            color: white;
+            color: black;
            }
 
            .phone-color{
-            color: white;
+            color: black;
            }
-        
+        .sub-color{
+            color: black;
+        }
         
        
 
