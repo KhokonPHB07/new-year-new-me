@@ -1,61 +1,3 @@
-/* .container{
-    position: absolute;
-    
-   }
-   .position{
-
-    width: 100%;
-    height: 40%;
-   }
-   .right-align{
-    position: absolute;
-    bottom: 300px;
-    right: 100px;
-    top: 100px;
-    font-size: 90px;
-    font-weight: bold;
-    color: black;
-    margin-left: 600px;
-    text-align: right;
-   }
-
-   .just{
-    position: absolute;
-    text-align: right;
-    font-size: 20px;
-    bottom: 240px;
-    right: 100px;
-    margin-left:900px;
-   }
-
-   .btn{
-    position: absolute;
-    font-size: 26px;
-    color: white;
-    padding:12px;
-    bottom: 120px;
-    right:100px;
-    background-color: orangered;
-    border: none;
-    border-radius: 4px;
-    
-   } */
-
-   /* applying flex */
-    /* .section-person{
-        display: flex;
-        align-items: flex-start;
-        justify-content:space-between ;
-    } */
-
-   
-
-   /* .text{
-    margin-top: 100px;
-    margin-right: 250px;
-    margin-left: 800px;
-   } */
-
    /* Styles for header */
    .container{
     display: flex;
@@ -150,12 +92,37 @@
             padding-top: 0%;
         }
 
+         /* styles for watch banner */
+        
+        .watch-flex{
+            display: flex;
+            flex-direction: column;
+            }    
+
+
         .icenter{
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 50px;
+            margin-top: 120px;
         }
+
+        .watch-blend{
+            position: absolute;
+            font-size: 50px;
+            font-weight: bold;
+            color:white;
+            bottom: 300px;
+            right: 100px;
+            top: 2150px;
+            margin-right: 700px;
+            margin-left: 250px;
+            text-align: left;
+           }
+
+        
+        
+       
 
 
 
