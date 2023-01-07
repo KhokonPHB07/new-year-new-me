@@ -52,15 +52,24 @@
         margin-left: 100px;
        }
 
+
        .section-header{
         font-size: 40px;
         padding-right: 100px;
        }
 
-       .list-type{
+       ul{
         list-style-type:none;
+        margin: 0;
+        
+        }
 
-       }
+        ul li:before{
+            content: '✓';
+            color: green;
+    
+
+        }
 
        /* Styles for section My plan */
 
@@ -102,6 +111,7 @@
          .watch-flex{
             display: flex;
             flex-direction: column;
+            
             }    
 
 
@@ -110,6 +120,7 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 120px;
+            background-image: linear-gradient(to left right, rgb(255, 0, 0,0.5));
         }
 
         .watch-blend{
@@ -117,7 +128,7 @@
             font-size: 50px;
             font-weight: bold;
             color:white;
-            top: 2150px;
+            top: 2100px;
             margin-right: 600px;
             margin-left: 250px;
             text-align: left;
@@ -126,7 +137,7 @@
 
         .btn-watch{
             position: absolute;
-            top: 2350px;
+            top: 2300px;
             font-size: 26px;
             color: orangered;
             padding:15px;
@@ -141,14 +152,14 @@
            /* styles for footer */
 
            .htext-color{
-            color:black ;
+            color:white ;
             font-size: 50px;
             margin-left: 170px;
             margin-top: 150px;
            }
 
            .ptext-color{
-            color: black;
+            color: white;
             font-size: 25px;
             text-align: left;
             margin-left: 170px;
@@ -157,25 +168,27 @@
            }
 
            .email-color{
-            color: black;
+            color: white;
             margin-left: 90px;
             font-size: 25px;
            }
 
            .phone-color{
-            color: black;
+            color: white;
             margin-left: 90px;
             font-size: 25px;
             margin-top: 25px;
            }
         
            .sub-color{
-            color: black;
+            color: white;
             }
 
             .social-media{
                 display: flex;
-                margin-left: 150px;
+                margin-left: 165px;
+                gap: 20px;
+                margin-bottom: 115px;
             }
 
             .foot-style{
@@ -192,14 +205,17 @@
                 padding: 25px;
                 border-radius: 10px;
                 font-size: 20px;
+                border-color: 2px solid white;
+                background-color:black;
+                
             }
 
             .subs-btn{
-                color: white;
+                color:orangered;
                 font-size: 25px;
                 padding: 20px;
                 border-radius: 8px;
-                background-color: orangered;
+                background-color: white;
                 border-color: none;
             }
 
@@ -207,6 +223,10 @@
             text-decoration: none;
         }
        
+        .foot-style{
+            background-color: black;
+            margin-top: 200px;
+        }
 
 
 
