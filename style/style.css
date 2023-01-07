@@ -94,7 +94,12 @@
 
          /* styles for watch banner */
         
-        .watch-flex{
+        
+        .myplans{
+            margin-bottom:auto;
+        }
+
+         .watch-flex{
             display: flex;
             flex-direction: column;
             }    
@@ -135,39 +140,72 @@
 
            /* styles for footer */
 
-           /* .foot-style{
-            position: fixed;
-            background-color: black;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 550px;
-            margin-top: 150px;
-            margin-left: 0;
-            margin-right: 0;
-
-           } */
-
            .htext-color{
             color:black ;
             font-size: 50px;
+            margin-left: 170px;
+            margin-top: 150px;
            }
 
            .ptext-color{
             color: black;
+            font-size: 25px;
+            text-align: left;
+            margin-left: 170px;
+            margin-right: 250px;
+
            }
 
            .email-color{
             color: black;
+            margin-left: 90px;
+            font-size: 25px;
            }
 
            .phone-color{
             color: black;
+            margin-left: 90px;
+            font-size: 25px;
+            margin-top: 25px;
            }
-        .sub-color{
-            color: black;
-        }
         
+           .sub-color{
+            color: black;
+            }
+
+            .social-media{
+                display: flex;
+                margin-left: 150px;
+            }
+
+            .foot-style{
+                display: flex;
+            }
+
+            .sub-color{
+                color: lightblue;
+                margin-top: 150px;
+                margin-right: 300px;
+            }
+
+            .input{
+                padding: 25px;
+                border-radius: 10px;
+                font-size: 20px;
+            }
+
+            .subs-btn{
+                color: white;
+                font-size: 25px;
+                padding: 20px;
+                border-radius: 8px;
+                background-color: orangered;
+                border-color: none;
+            }
+
+        a{
+            text-decoration: none;
+        }
        
 
 
